@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import download from "../Assets/download.svg";
 import view from "../Assets/view.svg";
-import View from "./View"; // Correct import path
 import notes from "../Assets/notes-img.svg";
 import "../App.css";
 import ADSA from "../Assets/Files/ADSA PRACTICE QUESTIONS.pdf";
@@ -115,11 +114,11 @@ function Notes() {
     note.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  const handleViewFile = (fileType, filePath) => {
-    // Open the file viewer page passing fileType and filePath as props
-    // You can navigate to the View component using React Router or any other navigation method
-    return <View fileType={fileType} filePath={filePath} />;
-  };
+//   const handleViewFile = (fileType, filePath) => {
+//     // Open the file viewer page passing fileType and filePath as props
+//     // You can navigate to the View component using React Router or any other navigation method
+//     return <View fileType={fileType} filePath={filePath} />;
+//   };
 
   const handleDownloadFile = (title, fileType, filePath) => {
     // Create a temporary anchor element
