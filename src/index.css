@@ -2,8 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.styles-for-container {
-    scrollbar-width: thin; /* for Firefox */
-    scrollbar-color: transparent transparent; /* for Firefox */
-    overflow-y: scroll; /* creates a scrollbar, but keeps it hidden */
-  }
