@@ -13,8 +13,8 @@ function App() {
   
   return (
 
-    
-    <Router>
+    <BrowserRouter  basename={window.location.pathname || ''}>
+ 
       <div className="bg-black p-10">
         {/* Navbar and other components can go here */}
         <Routes>
@@ -23,7 +23,8 @@ function App() {
           <Route path="/notes" element={<Notes />} />
         </Routes>
       </div>
-    </Router>
+
+    </BrowserRouter>
 
   );
 }
