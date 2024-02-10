@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NoteSnap/static/css/main.2923011c.css",
-    "main.js": "/NoteSnap/static/js/main.c28173d3.js",
+    "main.js": "/NoteSnap/static/js/main.0f52eb21.js",
     "static/js/592.bf6ca574.chunk.js": "/NoteSnap/static/js/592.bf6ca574.chunk.js",
     "static/media/STQ.pdf": "/NoteSnap/static/media/STQ.a1f11caf30004d82821b.pdf",
     "static/media/ADSA PRACTICE QUESTIONS.pdf": "/NoteSnap/static/media/ADSA PRACTICE QUESTIONS.529a17da8dbbcad9a7ce.pdf",
@@ -37,11 +37,11 @@
     "static/media/testimonial-line.svg": "/NoteSnap/static/media/testimonial-line.503312f1cf03959bb526a3b84a4c8ef0.svg",
     "static/media/hamberger.svg": "/NoteSnap/static/media/hamberger.e52b9c76184d45d526757dae0073da7a.svg",
     "main.2923011c.css.map": "/NoteSnap/static/css/main.2923011c.css.map",
-    "main.c28173d3.js.map": "/NoteSnap/static/js/main.c28173d3.js.map",
+    "main.0f52eb21.js.map": "/NoteSnap/static/js/main.0f52eb21.js.map",
     "592.bf6ca574.chunk.js.map": "/NoteSnap/static/js/592.bf6ca574.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2923011c.css",
-    "static/js/main.c28173d3.js"
+    "static/js/main.0f52eb21.js"
   ]
 }
