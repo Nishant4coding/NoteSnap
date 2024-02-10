@@ -21,23 +21,23 @@ function Navbar() {
         <img src={Logo} alt="" className="lg:w-72 w-40 mr-auto" />
          {/* Desktop Navigation */}
          <div className="hidden sm:flex gap-32 text-2xl mx-auto">
-          <a href="/" className="text-center text-white font-bold font-Inter">
+          <a href="/NoteSnap" className="text-center text-white font-bold font-Inter">
             Home
           </a>
           <a
-            href="/#service"
+            href="/NoteSnap#service"
             className="text-center text-white font-bold font-Inter"
           >
             Services
           </a>
           <a
-            href="/#contact"
+            href="/NoteSnap#contact"
             className="text-center text-white font-bold font-Inter"
           >
             Contact
           </a>
           <a
-            href="/#about"
+            href="/NoteSnap#about"
             className="text-center text-white font-bold font-Inter"
           >
             About
@@ -64,28 +64,28 @@ function Navbar() {
             </button>
             <div className="flex flex-col text-2xl">
               <a
-                href="/"
+                href="/NoteSnap"
                 className="text-white font-bold font-Inter py-2"
                 onClick={closeMobileMenu}
               >
                 Home
               </a>
               <a
-                href="/#service"
+                href="/NoteSnap#service"
                 className="text-white font-bold font-Inter py-2"
                 onClick={closeMobileMenu}
               >
                 Services
               </a>
               <a
-                href="/#contact"
+                href="/NoteSnap#contact"
                 className="text-white font-bold font-Inter py-2"
                 onClick={closeMobileMenu}
               >
                 Contact
               </a>
               <a
-                href="/#about"
+                href="/NoteSnap#about"
                 className="text-white font-bold font-Inter py-2"
                 onClick={closeMobileMenu}
               >

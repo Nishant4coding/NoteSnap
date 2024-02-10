@@ -172,8 +172,9 @@ function Notes() {
                 <div className=" lg:text-left lg:text-xl text-lg font-semibold font-Roboto mx-auto my-auto md:w-1/4">
                   {note.university}
                 </div>
-                <div className="flex flex-row ml-auto mr-auto">
+                <div className="flex flex-row ml-auto mr-auto ">
                   <img
+
                     src={download}
                     alt=""
                     onClick={() =>
@@ -183,6 +184,7 @@ function Notes() {
                         note.filePath
                       )
                     }
+                    style={{ cursor: 'pointer' }}
                   />
                   {/* Pass fileType and filePath as arguments to handleViewFile function */}
                   {/* <img src={view} alt="" onClick={() => handleViewFile(note.fileType, note.filePath)} /> */}
